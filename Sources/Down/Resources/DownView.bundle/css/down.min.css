@@ -262,23 +262,24 @@ a:not([href]){
     color:inherit
 }
 h1,h2,h3,h4,h5,h6{
-/*    margin-top:1em;*/
-/*    margin-bottom:16px;*/
+    margin-bottom: 12px;
     font-weight:700;
-    /* line-height: 1 */
+    line-height: 1;
 }
 h1{
-    font-size: 1.5em;
+    font-size: 1.75em;
+    color: #539DFF;
+    font-family: "Shippori Mincho B1", serif;
 }
 h2{
-    font-size: 1.3em;
+    font-size: 1.75em;
     color: #539DFF;
     font-family: "Shippori Mincho B1", serif;
     font-weight: 800;
     font-style: normal;
 }
 h3{
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 600;
     font-family: 'SF Pro Display', sans-serif;
 }
