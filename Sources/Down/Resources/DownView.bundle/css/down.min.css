@@ -245,13 +245,7 @@ body>:first-child{
 dl dt,li>p{
     margin-top:16px
 }
-li {
-    list-style-type: none;
-    position: relative;    /* It's needed for setting position to absolute in the next rule. */
-}
 li::before {
-    content: '•';
-    position: absolute;
     left: -1em;
     font-size: 1em;      /* Adjust this value so that it appears what size you want. */
 }
@@ -301,6 +295,9 @@ hr{
 }
 ol,ul{
     padding-left:1.5em
+}
+ol {
+    font-weight: 550;
 }
 ol ol,ol ul,ul ol,ul ul{
     margin-top:0;
