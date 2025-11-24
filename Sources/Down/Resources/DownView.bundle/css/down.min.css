@@ -256,19 +256,20 @@ a:not([href]){
     color:inherit
 }
 h1,h2,h3,h4,h5,h6{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     font-weight:700;
     line-height: 1;
 }
 h1{
-    font-size: 1.75em;
+    font-size: 1.8em;
     color: #539DFF;
     font-family: "Shippori Mincho B1", serif;
+    margin-bottom: 16px;
 }
 h2{
-    font-size: 1.75em;
-    color: #539DFF;
-    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.25em;
+    color: black;
+    font-family: "SF Pro Display", serif;
     font-weight: 800;
     font-style: normal;
 }
@@ -276,12 +277,6 @@ h3{
     font-size: 1.2em;
     font-weight: 600;
     font-family: 'SF Pro Display', sans-serif;
-}
-h4{
-    font-size:1em
-}
-dl dt,h5,h6{
-    font-size:1em
 }
 blockquote,dl,ol,p,pre,table,ul{
     margin-top:0;
