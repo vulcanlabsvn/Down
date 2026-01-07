@@ -165,7 +165,7 @@ pre,pre code{
 body{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
-    color:#333;
+    color: black;
     font-family: 'SF Pro Display', sans-serif;
     font-size: 16px;
     background-color: transparent !important;
@@ -263,7 +263,7 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 1.8em;
     color: #539DFF;
-    font-family: "Shippori Mincho B1", serif;
+    font-family: "SF Pro Display", serif;
     margin-bottom: 16px;
 }
 h2{
